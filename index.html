@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <section class="container home">
+    <section class="container" id="home">
         <nav>
             <h2>Home</h2>
             <ul>
                 <li><a href="#about"><i class="icon  fas fa-user"></i></i>About</a></li>
-                <li><a href="#Expertise"><i class="icon fas fa-tools"></i></i>Expertise</a></li>
+                <li><a href="#expertise"><i class="icon fas fa-tools"></i></i>Expertise</a></li>
                 <li><a href="#experience"><i class="icon fa-regular fa-building"></i>Experience</a></li>
                 <li><a href="#contact"><i class="icon fas fa-phone"></i>Contact</a></li>
             </ul>
@@ -38,12 +38,12 @@
             </div>
         </div>
     </section>
-    <section class="container about">
+    <section class="container" id="about">
         <nav>
-            <h2>About</h2>
+            <h2><a href="#home">About</a></h2>
             <ul>
-                <li><a href="#about"><i class="fas fa-user fa-lg"></i></a></li>
-                <li><a href="#Expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
+                <li><a href="#home"><i class="fas fa-house  fa-lg"></i></i></a></li>
+                <li><a href="#expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
                 <li><a href="#experience"><i class="fa-regular fa-building fa-lg"></i></a></li>
                 <li><a href="#contact"><i class="fas fa-phone fa-lg"></i></a></li>
             </ul>
@@ -462,12 +462,12 @@
             </div>
         </div>
     </section>
-    <section class="container expertise">
+    <section class="container" id="expertise">
         <nav>
             <h2>Expertise</h2>
             <ul>
+                <li><a href="#home"><i class="fas fa-house  fa-lg"></i></i></a></li>
                 <li><a href="#about"><i class="fas fa-user fa-lg"></i></a></li>
-                <li><a href="#Expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
                 <li><a href="#experience"><i class="fa-regular fa-building fa-lg"></i></a></li>
                 <li><a href="#contact"><i class="fas fa-phone fa-lg"></i></a></li>
             </ul>
@@ -622,20 +622,53 @@
             </div>
         </div>
     </section>
-    <section class="container experience">
+    <section class="container" id="experience">
         <nav>
             <h2>Where I’ve Worked</h2>
             <ul>
+                <li><a href="#home"><i class="fas fa-house  fa-lg"></i></i></a></li>
                 <li><a href="#about"><i class="fas fa-user fa-lg"></i></a></li>
-                <li><a href="#Expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
-                <li><a href="#experience"><i class="fa-regular fa-building fa-lg"></i></a></li>
+                <li><a href="#expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
                 <li><a href="#contact"><i class="fas fa-phone fa-lg"></i></a></li>
             </ul>
         </nav>
+        <div class="row companies">
+            <div class="col col-lg-1">
+                <div class="line">
+                    <div class="slider"></div>
+                </div>
+            </div>
+            <div class="col col-lg-2 company">
+                <div class="cmny-btn btn btn-primary">Fourbends</div>
+                <div class="cmny-btn btn btn-primary">Iorta</div>
+            </div>
+            <div class="col col-lg-9 contenttt"></div>
+        </div>
     </section>
-    <section class="contact">Contact</section>
+    <section class="container" id="contact">
+        <nav>
+            <h2>Connect with me</h2>
+            <ul>
+                <li><a href="#home"><i class="fas fa-house  fa-lg"></i></i></a></li>
+                <li><a href="#about"><i class="fas fa-user fa-lg"></i></a></li>
+                <li><a href="#expertise"><i class="fas fa-tools fa-lg"></i></i></a></li>
+                <li><a href="#experience"><i class="fa-regular fa-building fa-lg"></i></a></li>
+            </ul>
+        </nav>
+    </section>
 </body>
 <script src="./Bootstrap/js/bootstrap.min.js"></script>
 <script src="./icons/js/all.min.js"></script>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            })
+        })
+    })
+</script>
 
 </html>
