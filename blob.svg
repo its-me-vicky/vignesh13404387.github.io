@@ -1,0 +1,13 @@
+<svg width="913" height="882" viewBox="0 0 913 882" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="blob">
+<g id="surface1">
+<path id="Vector" d="M687.49 163.17C734.965 214.327 737.705 303.406 736.79 381.023C734.965 457.756 728.575 523.906 699.36 581.236C671.055 637.687 619.015 686.197 557.845 705.6C497.585 725.003 427.285 714.42 364.285 689.723C301.29 665.91 245.595 627.983 190.815 572.416C136.035 515.97 83.9948 442.763 94.0402 378.376C104.08 313.994 178.035 259.306 248.335 212.564C319.55 165.817 388.025 127.006 468.37 113.776C547.8 100.546 640.015 112.897 687.49 163.17Z" fill="url(#paint0_radial_191_62)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_191_62" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(414.925 412.223) rotate(-43.3071) scale(442.312 441.54)">
+<stop stop-color="#EF183F"/>
+<stop offset="1" stop-color="#9B36CA"/>
+</radialGradient>
+</defs>
+</svg>
