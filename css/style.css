@@ -34,7 +34,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: bolder;
 }
 
@@ -42,7 +42,6 @@ h2 {
     color: #EF183F;
     font-weight: bold;
     cursor: pointer;
-    /* margin: 0; */
 }
 
 .button {
@@ -71,7 +70,6 @@ body {
 
 section {
     height: 100vh;
-    /* background: #000; */
     color: #fff;
     scroll-snap-align: start;
     display: flex;
@@ -105,23 +103,18 @@ nav ul li {
     text-shadow: -5px 2px 15px black;
 }
 
+.hero {
+    padding: 26vh;
+}
 
-#home .container {
-    /* padding: 0px 50px; */
+
+
+/* #home .container {
+    padding: 0px 50px;
     border-radius: 2rem;
     background: linear-gradient(to right bottom, rgba(0, 0, 0, .07), rgba(100, 100, 100, 0.3));
     box-shadow: -7px 6px 20px 0px rgb(0 0 0 / 69%);
-}
-
-#home .icon {
-    margin-right: 10px;
-}
-
-#about .content {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
+} */
 
 .img-sec {
     position: relative;
@@ -134,9 +127,19 @@ nav ul li {
     max-height: 642px;
 }
 
-/* #about .content {
+* #home .icon {
+    margin-right: 10px;
+}
+
+#about .content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#about .content {
     padding: 82px 0px;
-} */
+}
 
 #about .content p {
     line-height: 45px;
@@ -278,5 +281,16 @@ circle {
 
     100% {
         stroke-dashoffset: 0;
+    }
+}
+
+/* 320px (iPhone) */
+@media screen and (max-width:414px) {
+    #home .icon-type {
+        display: none;
+    }
+
+    .hero {
+        align-items: center;
     }
 }
