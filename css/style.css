@@ -233,6 +233,10 @@ input[type="range"] {
     height: 45px;
 }
 
+.form-group {
+    margin-top: 2em !important;
+}
+
 .contact textarea.form-control {
     height: 310px;
 }

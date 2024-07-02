@@ -721,32 +721,29 @@
                 </ul>
             </nav>
             <div class="row">
-                <div class="col-md-6">
-                    <form role="form" method="post">
-                        <!-- Name -->
-                        <div class="row">
-                            <div class="col-md-6">
-                                <!-- E-Mail -->
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your name">
+                <div class="col-6">
+                    <form id="contact-form" role="form" method="post" action="">
+                        <div class="row form-group">
+                            <div class="col-md-6 ">
+                                <div>
+                                    <input type="text" name="" name class="form-control" placeholder="Your name">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <!-- Phone Number -->
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email address">
+                                <div>
+                                    <input type="email" name="email" class="form-control" placeholder="Email address">
                                 </div>
                             </div>
                         </div>
-                        <!-- Message Area -->
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Write you message here..."
+                            <textarea name="message" class="form-control" placeholder="Write you message here..."
                                 style="height:232px;"></textarea>
                         </div>
-                        <!-- Subtmit Button -->
-                        <button type="submit" class="button">
-                            Send message
-                        </button>
+                        <div class="form-group">
+                            <button type="submit" class="button">
+                                Send message
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
