@@ -69,8 +69,8 @@ Feel free to reach out to me via:
 Thank you for visiting my portfolio!
 
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/your-profile/)
-- **GitHub**: [your-github-profile](https://github.com/your-username)
+- **Email**: vikcy153905@yahoo.com(mailto:vikcy153905@yahoo.com)
+- **LinkedIn**: Vignesh K S(https://www.linkedin.com/in/your-profile/)
+- **GitHub**: its-me-vicky(https://github.com/your-username)
 
 Thank you for visiting my portfolio!
