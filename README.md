@@ -67,10 +67,3 @@ Feel free to reach out to me via:
 - **GitHub**: its-me-vicky(https://github.com/its-me-vicky)
 
 Thank you for visiting my portfolio!
-
-
-- **Email**: vikcy153905@yahoo.com(mailto:vikcy153905@yahoo.com)
-- **LinkedIn**: Vignesh K S(https://www.linkedin.com/in/your-profile/)
-- **GitHub**: its-me-vicky(https://github.com/your-username)
-
-Thank you for visiting my portfolio!
